@@ -11,12 +11,12 @@ function Footer() {
 
   return (
     <footer id="contact" className="uk-navbar footer">
-      <div className="uk-navbar-left">
+      <div className="uk-navbar-left brand-name">
         <ul className="uk-navbar-nav">
         <li>© { now } Darwin Gómez | All rights reserved</li>
         </ul>
       </div>
-      <div className="uk-navbar-center">
+      <div className="uk-navbar-center brand-links">
         <ul className="uk-navbar-nav">
           <li>
             <a href="https://twitter.com/darwintnt" target="_blank" rel="noopener noreferrer">
@@ -35,8 +35,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-
-      <div className="uk-navbar-right">
+      <div className="uk-navbar-right brand-email">
         <ul className="uk-navbar-nav">
         <li>darwintnt@hotmail.com</li>
         </ul>

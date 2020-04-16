@@ -7,12 +7,12 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
       <nav className="uk-navbar uk-navbar-container uk-margin header">
         <div className="uk-navbar-left">
           <a className="uk-navbar-item uk-logo" href="#banner">Darwin Gómez</a>
         </div>
-        <div className="uk-navbar-right">
+        <div className="uk-navbar-right nav-sections">
           <ul className="uk-navbar-nav">
             <li className="uk-active"><a href="#banner">Inicio</a></li>
             <li className="uk-active"><a href="#experience">Tecnologias</a></li>

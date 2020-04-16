@@ -5,7 +5,7 @@ import banner from '../assets/img/banner.svg'
 function Banner() {
   return (
     <section id="#banner" className="uk-container">
-      <div className="uk-child-width-1-2@m uk-grid uk-grid-large banner" data-uk-grid>
+      <div className="uk-child-width-1-2@m uk-grid uk-grid-small banner" data-uk-grid>
 
         <div className="banner-body">
           <h1 className="uk-text-center">Hola, Soy Darwin</h1>

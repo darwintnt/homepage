@@ -25,7 +25,7 @@ function Experience() {
           </p>
         </div>
 
-        <div className="uk-child-width-1-3@m uk-grid uk-grid-small uk-flex-center" data-uk-grid>
+        <div className="uk-child-width-1-3 uk-child-width-1-3@m uk-grid uk-grid-small uk-flex-center" data-uk-grid>
           <div>
             <img src={html5} alt="HTML 5" />
           </div>
