@@ -5,12 +5,13 @@
 }
 
 html {
-  background: #141E30;
+  background: #0F2027;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #243B55, #141E30);
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #243B55, #141E30);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 body {
@@ -40,3 +41,70 @@ p {
   flex-direction: column;
   height: 100vh;
 }
+
+.header {
+  padding: 0 100px;
+}
+
+.header .uk-logo {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.header .uk-navbar-nav>li.uk-active>a {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+.header .ul li a {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+.banner {
+  padding: 100px 0;
+}
+
+.banner-body,
+.experience-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience {
+  background: #fff;
+  padding: 80px 150px;
+}
+
+.experience h2 {
+  color: #243B55;
+}
+
+.experience p {
+  color: #243B55;
+  font-size: 20px;
+}
+
+/**
+ * footer
+ */
+
+.footer {
+  background: #fff;
+  padding: 80px;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  margin: 0 140px;
+}
+
+.about-body p {
+  font-size: 20px;
+  text-align: justify;
+}
+
